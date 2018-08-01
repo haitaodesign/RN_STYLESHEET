@@ -8,6 +8,9 @@ export default class Home extends React.Component {
       list:[{
         key: 1,
         name: 'StyleSheet'
+      },{
+        key: 2,
+        name: 'Platform'
       }]
     }
   }

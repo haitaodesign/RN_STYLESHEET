@@ -1,7 +1,7 @@
 import * as React from 'react';
-import { View, Text, StyleSheet,PixelRatio } from 'react-native';
+import { View, Text, StyleSheet, PixelRatio, Button } from 'react-native';
 import { styles } from '../Home';
-export default class StyleSheet2 extends React.Component {
+export default class StyleSheetScreen extends React.Component {
   render () {
     return (
       <View style={styles.container}>
@@ -9,6 +9,9 @@ export default class StyleSheet2 extends React.Component {
         <View style={{marginLeft: 20, marginRight: 20, width: 300,height:200, borderWidth: 1/PixelRatio.get()}}>
           <Text>1像素边框：1/PixelRatio.get()</Text>
         </View>
+        <View>
+         <Button title="返回" onPress={this.onPress}></Button>
+       </View>
       </View>
     )
   }

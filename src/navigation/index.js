@@ -3,6 +3,7 @@ import { createStackNavigator } from 'react-navigation';
 
 import { Home } from '../screens/Home'
 import { StyleSheet } from '../screens/StyleSheet'
+import Platform from '../screens/Platform'
 
 
 const HomeStack = createStackNavigator({
@@ -18,6 +19,13 @@ const HomeStack = createStackNavigator({
     navigationOptions: {
       header: () => null,
       headerTitle: 'StyleSheet',
+    }
+  },
+  Platform: {
+    screen: Platform,
+    navigationOptions: {
+      header: () => null,
+      headerTitle: 'Platform',
     }
   }
 },{
