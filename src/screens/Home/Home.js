@@ -17,6 +17,9 @@ export default class Home extends React.Component {
       },{
         key: 4,
         name: 'ScreenUtil'
+      },{
+        key: 5,
+        name: 'EStyleSheet'
       }]
     }
   }
