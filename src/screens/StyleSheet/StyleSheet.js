@@ -2,6 +2,9 @@ import * as React from 'react';
 import { View, Text, StyleSheet, PixelRatio, Button } from 'react-native';
 import { styles } from '../Home';
 export default class StyleSheetScreen extends React.Component {
+  onPress = () => {
+    this.props.navigation.goBack(null)
+  }
   render () {
     return (
       <View style={styles.container}>

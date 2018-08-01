@@ -4,6 +4,7 @@ import { createStackNavigator } from 'react-navigation';
 import { Home } from '../screens/Home'
 import { StyleSheet } from '../screens/StyleSheet'
 import Platform from '../screens/Platform'
+import Dimensions from '../screens/Dimensions'
 
 
 const HomeStack = createStackNavigator({
@@ -23,6 +24,13 @@ const HomeStack = createStackNavigator({
   },
   Platform: {
     screen: Platform,
+    navigationOptions: {
+      header: () => null,
+      headerTitle: 'Platform',
+    }
+  },
+  Dimensions: {
+    screen: Dimensions,
     navigationOptions: {
       header: () => null,
       headerTitle: 'Platform',

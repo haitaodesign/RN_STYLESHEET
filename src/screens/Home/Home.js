@@ -11,6 +11,9 @@ export default class Home extends React.Component {
       },{
         key: 2,
         name: 'Platform'
+      },{
+        key: 3,
+        name: 'Dimensions'
       }]
     }
   }
