@@ -5,6 +5,7 @@ import { Home } from '../screens/Home'
 import { StyleSheet } from '../screens/StyleSheet'
 import Platform from '../screens/Platform'
 import Dimensions from '../screens/Dimensions'
+import ScreenUtil from '../screens/ScreenUtil'
 
 
 const HomeStack = createStackNavigator({
@@ -31,6 +32,13 @@ const HomeStack = createStackNavigator({
   },
   Dimensions: {
     screen: Dimensions,
+    navigationOptions: {
+      header: () => null,
+      headerTitle: 'Platform',
+    }
+  },
+  ScreenUtil: {
+    screen: ScreenUtil,
     navigationOptions: {
       header: () => null,
       headerTitle: 'Platform',

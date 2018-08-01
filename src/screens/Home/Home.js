@@ -14,6 +14,9 @@ export default class Home extends React.Component {
       },{
         key: 3,
         name: 'Dimensions'
+      },{
+        key: 4,
+        name: 'ScreenUtil'
       }]
     }
   }
