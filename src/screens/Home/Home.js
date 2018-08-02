@@ -26,6 +26,9 @@ export default class Home extends React.Component {
       },{
         key: 7,
         name: 'Percents'
+      },{
+        key: 8,
+        name: 'Scaling'
       }]
     }
   }
