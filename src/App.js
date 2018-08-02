@@ -12,8 +12,13 @@ import Navigator from './navigation';
 
 // 定义全局变量
 EStyleSheet.build({
+  $outline: 1,
   $textColor: '#0275d8',
-  $buttonColor: 'green'
+  $buttonColor: 'blue'
 });
-
+module.hot.accept(() => {
+  EStyleSheet.clearCache();
+  EStyleSheet.build();
+});
 export default () => <Navigator/>
+
