@@ -29,6 +29,9 @@ export default class Home extends React.Component {
       },{
         key: 8,
         name: 'Scaling'
+      },{
+        key: 9,
+        name: 'PseudoClass'
       }]
     }
   }

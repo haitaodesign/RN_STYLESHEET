@@ -10,6 +10,7 @@ import EStyleSheet from '../screens/EStyleSheet/EStyleSheet'
 import REM from '../screens/REM'
 import Percents from '../screens/Percents'
 import Scaling from '../screens/Scaling'
+import PseudoClass from '../screens/PseudoClass'
 
 
 const HomeStack = createStackNavigator({
@@ -71,6 +72,13 @@ const HomeStack = createStackNavigator({
   },
   Scaling: {
     screen: Scaling,
+    navigationOptions: {
+      header: () => null,
+      headerTitle: 'EStyleSheet',
+    }
+  },
+  PseudoClass: {
+    screen: PseudoClass,
     navigationOptions: {
       header: () => null,
       headerTitle: 'EStyleSheet',
