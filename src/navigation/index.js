@@ -11,6 +11,7 @@ import REM from '../screens/REM'
 import Percents from '../screens/Percents'
 import Scaling from '../screens/Scaling'
 import PseudoClass from '../screens/PseudoClass'
+import ValueFunction from '../screens/ValueFunction'
 
 
 const HomeStack = createStackNavigator({
@@ -82,6 +83,13 @@ const HomeStack = createStackNavigator({
     navigationOptions: {
       header: () => null,
       headerTitle: 'EStyleSheet',
+    }
+  },
+  ValueFunction: {
+    screen: ValueFunction,
+    navigationOptions: {
+      header: () => null,
+      headerTitle: 'ValueFunction',
     }
   }
 },{

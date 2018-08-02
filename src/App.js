@@ -12,7 +12,8 @@ import Navigator from './navigation';
 
 // 定义全局变量
 EStyleSheet.build({
-  $textColor: '#0275d8'
+  $textColor: '#0275d8',
+  $buttonColor: 'green'
 });
 
 export default () => <Navigator/>

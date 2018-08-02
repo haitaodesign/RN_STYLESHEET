@@ -32,6 +32,9 @@ export default class Home extends React.Component {
       },{
         key: 9,
         name: 'PseudoClass'
+      },{
+        key: 10,
+        name: 'ValueFunction'
       }]
     }
   }
