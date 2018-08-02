@@ -23,6 +23,9 @@ export default class Home extends React.Component {
       },{
         key: 6,
         name: 'REM'
+      },{
+        key: 7,
+        name: 'Percents'
       }]
     }
   }
