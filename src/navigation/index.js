@@ -7,6 +7,7 @@ import Platform from '../screens/Platform'
 import Dimensions from '../screens/Dimensions'
 import ScreenUtil from '../screens/ScreenUtil'
 import EStyleSheet from '../screens/EStyleSheet/EStyleSheet'
+import REM from '../screens/REM'
 
 
 const HomeStack = createStackNavigator({
@@ -47,6 +48,13 @@ const HomeStack = createStackNavigator({
   },
   EStyleSheet: {
     screen: EStyleSheet,
+    navigationOptions: {
+      header: () => null,
+      headerTitle: 'EStyleSheet',
+    }
+  },
+  REM: {
+    screen: REM,
     navigationOptions: {
       header: () => null,
       headerTitle: 'EStyleSheet',

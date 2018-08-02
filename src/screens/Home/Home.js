@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { View, Text, TouchableOpacity } from 'react-native'
+import { View, Text, TouchableOpacity, SafeAreaView } from 'react-native'
 import styles from './styles'
 export default class Home extends React.Component {
   constructor(props){
@@ -20,6 +20,9 @@ export default class Home extends React.Component {
       },{
         key: 5,
         name: 'EStyleSheet'
+      },{
+        key: 6,
+        name: 'REM'
       }]
     }
   }
@@ -28,7 +31,7 @@ export default class Home extends React.Component {
   }
   render () {
     return (
-      <View style={styles.container}>
+        <View style={styles.container}>
       {
         this.state.list.map(item => {
           return (
