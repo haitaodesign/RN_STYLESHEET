@@ -30,7 +30,7 @@ export default class DimensionsScreen extends React.Component {
          <Text>字体大小</Text>
          <Text style={{fontSize:Px(24)}}>react-native</Text>
          <Text>第二种方案：Px2</Text>
-         <View style={{width:Px(100),height:Px(50),backgroundColor:"blue"}}>
+         <View style={{width:Px(100),height:Px2(50),backgroundColor:"blue"}}>
          </View>
          <Text>字体大小,增加字体缩放比PxText</Text>
          <Text style={{fontSize:PxText(24)}}>react-native</Text>

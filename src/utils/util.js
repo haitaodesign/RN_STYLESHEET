@@ -32,13 +32,13 @@ export let pixelRatio = PixelRatio.get()
 export const fontScale = PixelRatio.getFontScale()
 
 /**
- * UI设计基准，以iphone为准
+ * UI设计基准，以iphone6为准
  * width:750px
  * height:1334px
  * px转dp
  */
 
- // 像素密度
+ // 默认设备像素密度
 const DEFAULT_DENSITY = 2
 const defaultWidth = 375
 const defaultHeight = 667
@@ -68,7 +68,7 @@ export function Px2(size) {
 
 /**
  * 字体适配（第一种方案）
- * 第二种方案同上，是否加fontScale有待考证,不加直接用Px方法即可
+ * 第二种方案同上，是否加fontScale有待考证,不加直接用Px，PX2方法即可
  * @param {字体大小（px）} size 
  */
 export function PxText(size) {
